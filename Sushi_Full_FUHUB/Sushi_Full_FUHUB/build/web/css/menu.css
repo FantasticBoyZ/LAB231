@@ -1,0 +1,31 @@
+/*copyright by fu hub*/
+/*link group https://www.facebook.com/groups/498752080529382/*/
+/*begin of list price*/
+.menu_title{
+    font-size: 32px;
+    margin-top: 44px;
+    margin-bottom: 22px;
+    font-weight: bold;
+}
+.menu_table{
+    margin-bottom: 22px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.row_left{
+    padding: 8px;
+    border-top: 1px solid #ddd;
+    text-align: left;
+}
+.row_right{
+    padding: 8px;
+    border-top: 1px solid #ddd;
+    text-align: right;
+}
+.perMenu{
+    border-bottom: 3px dotted lightgrey;
+    margin-bottom: 32px;
+}
+.perMenu p{
+    text-align: justify;
+}

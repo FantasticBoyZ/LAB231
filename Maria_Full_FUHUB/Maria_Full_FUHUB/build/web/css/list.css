@@ -1,0 +1,56 @@
+/*copyright by fu hub*/
+/*link group https://www.facebook.com/groups/498752080529382/*/
+/*begin of list produc*/
+.list{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-bottom: 3px grey dotted;
+    padding-bottom: 20px;
+}
+.list:last-of-type{
+    border-bottom: none;
+}
+
+.list_image{
+    width: 200px;
+    margin-right: 20px;
+}
+.list_image img{
+    width: 100%;  
+    height: auto;
+    border-radius: 12px;
+}
+.list_content{
+    width: 526px;
+    height: auto;
+}
+.list_title{
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: georgia, palatino;
+}
+.list_des{
+    font-size: 17px;
+    font-family: arial;
+}
+/*end of list product*/
+/*begin of paging*/
+.paging{
+    height: 40px;
+    padding-left: 250px;
+    margin-top: 20px;
+}
+.paging a{
+    font-weight: bold;
+    font-size: 20px;
+    color: darkred;
+    text-decoration: none;
+    border: 0.5px lightgrey solid;
+    border-radius: 5px;
+    padding: 8px 8px 8px 8px;
+}
+/*begin of pagin*/

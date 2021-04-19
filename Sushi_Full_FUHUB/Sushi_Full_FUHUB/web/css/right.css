@@ -1,0 +1,30 @@
+/*copyright by fu hub*/
+/*link group https://www.facebook.com/groups/498752080529382/*/
+.right{
+    width: 240px;
+    border-bottom: 1px solid gray;
+}
+.share_box{
+    margin-top: 37px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px;
+    width: 205px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.share_header{
+    padding-top: 11px;
+    font-size: 22px;
+    font-family: Times New Roman;
+}
+.share_content{
+    margin-top: 10px;
+}
+.link{
+    margin-top: 5px;
+    font-size: 16px;
+}
+.share_content a{
+    color: black;
+}

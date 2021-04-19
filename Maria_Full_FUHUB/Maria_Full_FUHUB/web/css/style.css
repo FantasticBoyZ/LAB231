@@ -1,0 +1,175 @@
+/*copyright by fu hub*/
+/*link group https://www.facebook.com/groups/498752080529382/*/
+body{
+    background-image: url(../images/blur-redblack.jpg);
+    font-family: Arial;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: Arial;
+    background-size: cover; 
+}
+.container{
+    width: 980px;
+    margin: auto;
+    box-shadow: 0 0 24px;
+    margin-top: -10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: auto;
+    background-color: white;
+}
+
+.content{
+    width: 940px;
+    display: flex;
+    height: auto;
+    margin: auto;
+}
+/*right*/
+.left{
+    width: 700px;
+    height: auto;
+    border-bottom: 1px solid gray;
+
+}
+/*introduction*/
+.intro{
+    margin-top: 35px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-bottom: 3px grey dotted;
+    padding-bottom: 30px;
+}
+.intro_image{
+    width: 174px;
+    margin-right: 20px;
+}
+.intro_image img{
+    width: 100%;  
+    height: auto;
+    border-radius: 12px;
+}
+.intro_content{
+    width: 526px;
+    height: auto;
+}
+.intro_title{
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: georgia, palatino;
+}
+.intro_des{
+    font-size: 17px;
+    font-family: arial;
+}
+/*end of intro*/
+
+
+/*top 2 product*/
+.top2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-bottom: 3px dotted grey;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.perTop2{
+    width: 343px;
+    margin-left: 0px;
+}
+.perTop2:last-of-type{
+    margin-left: 14px;
+}
+
+.top2_image img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.top2_title{
+    font-size: 24px;
+    font-family: Times New Roman;
+    margin-bottom: 10px;
+}
+.top2_description{
+    font-size: 17px;
+    font-family: Arial;
+}
+/*end of top 2*/
+
+/*begin of infor*/
+.infor{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    border-bottom: 3px grey dotted;
+}
+.infor_title{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Times New Roman;
+}
+.signature{
+    font-size: 17px;
+    font-family: Arial;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*end of infor*/
+
+/*begin of cake details*/
+.cake{
+    width: 100%;
+    height: auto;
+}
+.cake_title{
+    font-size: 28px;
+    font-family: Times New Roman;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.cake_detail{
+    width: 100%;
+    height: auto;
+    font-size: 17px;
+}
+
+.cake_image img{
+    float: right;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.cake_price{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+/*end of cake details*/
+.activeMenu{
+    font-size: 25px;
+    font-weight: bold;
+}
+.activeInfor{
+    font-size: 25px;
+    font-weight: bold;
+}
+.activeList{
+    font-size: 25px;
+    font-weight: bold;
+}
+.active{
+    color: blue !important;
+    pointer-events: none;
+}

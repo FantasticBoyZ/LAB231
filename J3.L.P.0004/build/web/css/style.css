@@ -1,0 +1,138 @@
+body
+{
+    font-family:sans-serif;
+    background-color: #E7E7E7;
+}
+.container
+{
+    background-image: url(../image/bg.jpg) ;
+    background-repeat: repeat-y;
+    width: 886px;
+    height: auto;
+    margin: 0 auto;    
+}
+.content
+{
+    width: 760px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+}
+.main
+{
+    width: 70%;
+    padding: 20px;
+    border-right: dotted 2px;
+    border-color: #e0e0e0;    
+}
+.right{
+    width: 30%;
+    float:right;
+    margin: 0 auto;
+}
+.main a
+{
+    text-decoration: none;
+    color: #42554e;
+    font-weight: bold;
+}
+
+.title
+{
+    font-size: 18px;
+    color: #42554e;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.signature
+{
+    float:right;
+    color: #42554e;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.image img
+{
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.text{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.icon1{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../image/comment.gif);
+    background-repeat: no-repeat;
+}
+.icon2{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../image/timeicon.gif);
+    background-repeat: no-repeat;
+}
+.image_search img
+{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.text_search
+{   
+    font-size: 13px;
+}
+.paging
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.paging a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid;
+}
+.active{
+    color: blue !important;
+    pointer-events: none;
+}
+.image1 a{
+    color: #42554e;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.title1 a{
+    color: #42554e;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.contentArticle{
+    display: flex;
+}
+.image1 img{
+    width: 150px;
+    height: auto;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+.content1 a{
+    font-weight: normal;
+    color: black;
+}
+
+.title1{
+    font-size: 18px;
+    color: #42554e;
+    font-weight:bold;
+    padding-bottom: 15px;
+}
+

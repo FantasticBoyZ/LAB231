@@ -1,0 +1,51 @@
+/*copyright by fu hub*/
+/*link group https://www.facebook.com/groups/498752080529382/*/
+/*begin of location*/
+.location_title{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: Times New Roman;
+}
+.location{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 17px;
+    border-bottom: 3px dotted lightgrey;
+}
+.location_left{
+    width: 345px;
+    margin-left: 0px;
+    height: auto;
+}
+
+.location_right{
+    width: 345px;
+    margin-left: 10px;
+    height: auto;
+}
+.location_header{
+    font-size: 24px;
+    font-family: Times New Roman;
+    margin-bottom: 10px;
+}
+.location_right p{
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.location_left p{
+    margin-top: 0px;
+}
+.map{
+    width: 700px;
+    height: 500px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    background-image: url(../images/map.png);
+}
+/*end of location*/
